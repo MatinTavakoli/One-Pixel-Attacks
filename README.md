@@ -1,6 +1,6 @@
 # Exploring One-Pixel-Attacks
 
-[![One-Pixel-Attack](one_pixel_attack.webp)
+[![One-Pixel-Attack](one_pixel_attack.webp)]
 
 Implementing one pixel attacks on various pretrained neural network models. In this repository, I explore the one-pixel-attack and analyze its effect on pretrained models.
 
