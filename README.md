@@ -29,7 +29,7 @@ The way the attack is generated is as follows: First, we generate an initial pop
 Now the parents and the children will compete according to the fitness function. In our setup, the fitness function will be to either minimize the correct class label (untargeted attack) or to maximize the target class label (targeted attack). This signifies the execution of one generation. This process will then continue until we generate the perturbed image which misclassifies the model.
 
 ## Colab File
-The main segments of the [notebook](https://colab.research.google.com/drive/1yi0JfuOcXfPyfaDJQKacY59XRdRMaFl_?usp=sharing) is:
+The main segments of the [notebook](https://colab.research.google.com/drive/1yi0JfuOcXfPyfaDJQKacY59XRdRMaFl_?usp=sharing) are:
 - Imports and Extracts: importing the necessary libraries and retrieving the pretrained models.
 - Warm Up: just importing the models and loading the dataset. Nothing special! 
 - Initial Experiments: here we test the attack on random pixel perturbations, in order to get a feel of the attack.
