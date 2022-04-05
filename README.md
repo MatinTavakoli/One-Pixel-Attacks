@@ -6,8 +6,8 @@ Implementing one pixel attacks on various pretrained neural network models. In t
 
 ## Contents
 - [Introduction](#introduction)
-- Attack Overview
-- Colab File
+- [Attack-Overview](#attack-overview)
+- [Colab-File](#colab-file)
     - [Imports and Extracts](#imports)
     - [Warming Up](#warm-up)
     - [Initial Experiments](#initial-experiments)
