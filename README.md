@@ -30,7 +30,7 @@ Now the parents and the children will compete according to the fitness function.
 
 <br />
 
-[![One-Pixel-DE](one_pixel_de.png)]
+[![One-Pixel-DE](one-pixel-de.png)]
 
 <br />
 
