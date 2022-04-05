@@ -38,6 +38,15 @@ The main segments of the [notebook](https://colab.research.google.com/drive/1yi0
 - Analyzing: analyzing the gathered data.
 - Going Even Further: A short glimpse into shared vulnerabilities between neighboring pixels.
 
+## Minor Issue
+Through the imports, make sure to make the following modifications:
+```python
+from tensorflow.keras.optimizers import Adam, SGD
+from tensorflow.keras.layers import BatchNormalization
+from tensorflow.keras.utils import plot_model
+from tensorflow.keras.utils import to_categorical
+```
+
 ## Resources
 - [One pixel attack for fooling deep neural networks](https://arxiv.org/abs/1710.08864)
 - [Understanding the one-pixel attack: Propagation maps and locality analysis](https://arxiv.org/abs/1902.02947)
