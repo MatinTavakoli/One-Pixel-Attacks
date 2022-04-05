@@ -18,7 +18,9 @@ In this work, we explore the one-pixel-attack. A one-pixel-attack is a black-box
 - Evaluation Metric: Success rate (# of sucessful attacks / # of total attacks)
 
 ## Attack Overview
-The way the attack is generated is as follows: First, we generate an initial population of one-pixel-perturbed images of the targeted image. After generating the initial population, we generate the candidate (children) population. Since this algorithm is a differential evolution algorithm, the child generation formula will be: $x_i(g+1) = x_{r_1}(g) + F(x_{r_2}(g) - x_{r_3}(g))$ (where $r_1 \neq r_2 \neq r_3$). Now the parents and the children will compete according to the fitness function. In our setup, the fitness function will be to either minimize the correct class label (untargeted attack) or to maximize the target class label (targeted attack). This signifies the execution of one generation. This process will then continue until we generate the perturbed image which misclassifies the model.
+The way the attack is generated is as follows: First, we generate an initial population of one-pixel-perturbed images of the targeted image. After generating the initial population, we generate the candidate (children) population. Since this algorithm is a differential evolution algorithm, the child generation formula will be:
+[![DE Equation](equation_png)]
+Now the parents and the children will compete according to the fitness function. In our setup, the fitness function will be to either minimize the correct class label (untargeted attack) or to maximize the target class label (targeted attack). This signifies the execution of one generation. This process will then continue until we generate the perturbed image which misclassifies the model.
 
 ## Colab File
 The main segments of the [notebook](https://colab.research.google.com/drive/1yi0JfuOcXfPyfaDJQKacY59XRdRMaFl_?usp=sharing) is:
