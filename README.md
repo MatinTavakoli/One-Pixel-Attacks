@@ -6,10 +6,6 @@ Implementing one pixel attacks on various pretrained neural network models. In t
 
 ## Contents
 - [Introduction](#introduction)
-    - [Dataset](#getting-started-with-generics)
-    - [Fuzzing](#getting-started-with-fuzzing)
-    - [Workspace](#getting-started-with-multi-module-workspaces)
-    - [Performance Improvements](#20-performance-improvements)
 - Attack Overview
 - Colab File
     - [Imports and Extracts](#imports)
