@@ -11,7 +11,7 @@ Implementing one pixel attacks on various pretrained neural network models. In t
 - [Resources](#resources)
 
 ## Introduction
-In this work, we explore the one-pixel-attack. A one-pixel-attack is a black-box attack that by perturbing a single pixel of the image, manages to fool a pretrained neural network model to misclassify the image (often with high confidence!). This attack is generated via Differential Evolution (DE). Our results show that on average, about 1/3 of the total images under all models are misclassified. Other information on this attack are:
+In this work, we explore the one-pixel-attack. A one-pixel-attack is a black-box attack that by perturbing a single pixel of the image, manages to fool a pretrained neural network model to misclassify the image (often with high confidence!). This attack is generated via Differential Evolution (DE). Our results show that on average, about 1/3 of the total images under all models are successfully misclassified. Other information on this attack are:
 - Dataset: CIFAR-10 dataset
 - Models: Pure CNN, ResNet, DenseNet, CapsNet, WideResNet
 - Evolutionary algorithm: Differential Evolution
