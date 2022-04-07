@@ -55,12 +55,13 @@ from tensorflow.keras.utils import to_categorical
 ```
 
 ## Results
-|   Model    | Accuracy | Non-targeted Success Rate | Targeted Success Rate |
-|------------|----------|---------------------------|-----------------------|
-|  PureCNN   |  88.7%   |           26.2%           |         24.1%         |
-|   ResNet   |  92.3%   |           32.6%           |         34.3%         |
-|  DenseNet  |  94.6%   |           36.9%           |         31.8%         |
-| WideResNet |  95.3%   |           28.1%           |         25.6%         |
+
+|     Model  | Accuracy | Non-targeted Success Rate | Targeted Success Rate |
+|:----------:|:--------:|:-------------------------:|:---------------------:|
+|   PureCNN  |   88.7%  |                26.2%      |             24.1%     |
+|    ResNet  |   92.3%  |                32.6%      |             34.3%     |
+|   DenseNet |   94.6%  |                36.9%      |             31.8%     |
+| WideResNet |   95.3%  |                28.1%      |             25.6%     |
 
 ## Resources
 - [One pixel attack for fooling deep neural networks](https://arxiv.org/abs/1710.08864)
