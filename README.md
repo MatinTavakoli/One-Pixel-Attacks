@@ -53,6 +53,7 @@ from tensorflow.keras.layers import BatchNormalization
 from tensorflow.keras.utils import plot_model
 from tensorflow.keras.utils import to_categorical
 ```
+Also, make sure to download and add the `one-pixel-attack-models.zip` file from [here](https://www.dropbox.com/sh/dvatkpjl0sn79kn/AAC9L4puJ_sdFUkDZfr5SFkLa?dl=0). Just add it to the directory. Extracting is then done automatically.
 
 ## Results
 
